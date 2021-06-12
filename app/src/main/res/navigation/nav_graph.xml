@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cadastroFragment">
+
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.example.jogardados.CadastroFragment"
+        android:label="CadastroFragment" >
+        <action
+            android:id="@+id/action_cadastroFragment_to_dadoFragment"
+            app:destination="@id/dadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dadoFragment"
+        android:name="com.example.jogardados.DadoFragment"
+        android:label="DadoFragment" >
+        <argument android:name="jogador"
+            app:argType="string"
+            android:defaultValue="jogador" />
+    </fragment>
+</navigation>

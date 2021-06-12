@@ -5,4 +5,6 @@
     <string name="bt_jogar">Jogar</string>
     <string name="bt_cadastrar">Cadastrar</string>
     <string name="bemvindo">Seja bem vindo  ao jogo boa sorte!"  ": </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
