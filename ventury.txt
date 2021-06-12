@@ -1,0 +1,17 @@
+
+
+1-Qual o problema que o app Lance dados  se propoe a resolver 
+
+ele se propoe a resolve o problema das pessoas de nao ter dados para saber qual seria  a pessoa mais  sortuda.
+entao gerar  dois numeros aleatorio e entregar para as pessoas simulando assim dois dados  
+
+2- como resover ese problema de maneira mais simples possivel 
+no meu ponto de vista entregando Um MVP ou seja um prototipo que consegue no minimo fazer 
+a simulaçao de duas pessoas jogando dados cada uma com seu prorio dado .
+
+3- como dividir o trabalho de construir o app em etapas sem perder a soluçao do problema 
+
+fazendo a entrega por parte tipo por periodo ou de acordo que for terminando e atualizando o app buscando atender 
+todos os requisitos do cliente e alcaçando no produto final maior satisfaçao possivel do cliente .
+
+
