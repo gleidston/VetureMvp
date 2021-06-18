@@ -37,11 +37,11 @@ class DadoFragment : Fragment() {
         val bt6 = binding?.btn6
         val zap = binding?.floatWhats
         val text = binding?.txtBoas
-        val jogador = "jogador1"
+        //val jogador = "jogador1"
 
-        val msg = "${resources.getString(R.string.bemvindo)}$jogador"
+        val msg = "${resources.getString(R.string.bemvindo)}"
 
-        text?.text = msg
+        text?.text = arguments?.getString("jogador1", msg )
 
 
         val imagens = listOf(

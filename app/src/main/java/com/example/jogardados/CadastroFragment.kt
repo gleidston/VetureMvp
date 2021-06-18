@@ -17,14 +17,6 @@ class CadastroFragment : Fragment() {
     var binding :FragmentCadastroBinding? = null
 
 
-
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -37,8 +29,10 @@ class CadastroFragment : Fragment() {
         val btnCadastro = binding?.buttonCadastro
 
         btnCadastro?.setOnClickListener {
-            val jogador1 =jogador1?.text.toString()
-            findNavController().navigate(R.id.action_cadastroFragment_to_dadoFragment, bundleOf("nomeJogador" to jogador1))
+            val Jogador=jogador1?.text.toString()
+
+            findNavController().navigate(R.id.action_cadastroFragment_to_dadoFragment,
+                bundleOf("jogador1" to Jogador))
         }
         return  binding?.root
     }
